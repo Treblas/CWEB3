@@ -1,0 +1,326 @@
+
+body {
+    margin: 0;
+    font-family: Times New Roman;
+}
+
+
+div[name=main-center-div] {
+    float: left;
+    width: 50px;
+    padding: 10px;
+    height: 100%;
+    background-color:#000;
+    border-radius: 2px;
+    color:black;
+    position: fixed;
+}
+div[name=maindiv] {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 840px;
+    background-color:#fff;
+    border-radius: 2px;
+    color:black;
+    margin-top:40px;
+    margin-left: 4%;
+    border-bottom-left-radius: 10px;
+
+}
+div[name=second-div] {
+    float: left;
+    width: 50%;
+    height: auto;
+   	border-radius: 2px;
+    color:black;
+    margin-top: 40px;
+}
+
+
+div[name=third-div] {
+    float: left;
+    width: 22%;
+    padding: 10px;
+    height: 700px;
+    border-radius: 2px;
+    color:black;
+    margin-top:5px;
+    
+}
+
+
+
+div[name=main-center]:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div[name=main-center]{
+		 margin-top: -25px;
+}
+
+div[name=mid-div-section]{
+    width:74%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 50%;
+    width: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+	font-size:13px;
+}
+
+li a#active {
+    color: #4CAF50;
+}
+
+li a:hover:not(.active) {
+    background-color: #1f1f14;
+    color: white;
+	font-weight:bold;
+}
+
+
+
+
+#lbl-s{
+	font-size: 14px;
+	opacity: 0.7;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+
+#lbl-f{
+  margin-left: 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#mid-lbl{
+  margin-bottom: 10px;
+  margin-top: 14px;
+  font-size: 18px;
+  
+}
+
+#right-lbl{
+  margin-bottom: 10px;
+  margin-top: 14px;
+  font-size: 12px;
+  
+}
+
+#mid-lbl-name{
+    opacity: 0.6;
+	font-size:14px;
+}
+
+#mid2-lbl{
+    color:#85e085;
+}
+
+
+#userpic{
+	width:58%; 
+    height:14%;
+	margin-left: 13%;
+    margin-top: 2px;
+}
+
+#date{
+    opacity: 0.6;
+    margin-left: 32px;
+	font-size:10px;
+}
+
+
+#continue{
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#dateicon{
+    width:20px; 
+    height:16px;
+}
+
+#search{
+    width:25px; 
+    height:25px;
+    margin-top: 20px;
+
+}
+#fb{
+    width:10px; 
+    height:18px;
+    margin-left: 7px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    position: static;
+}
+#twit{
+    width:25px; 
+    height:30px;
+    margin-left: 0px;
+}
+#gog{
+    width:21px; 
+    height:18px;
+    margin-left: 4px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+#you{
+    width:23px; 
+    height:19px;
+    margin-left: 1px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+
+}
+#link{
+    width:19px; 
+    height:17px;
+    margin-left: 3px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+#git{
+    width:19px; 
+    height:20px;
+    margin-left: 3px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    opacity: 0.7;
+}
+#arrow{
+    width:19px; 
+    height:20px;
+    margin-left: 3px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    opacity: 0.7;
+    position: static;
+}
+
+#comments{
+    width:15px; 
+    height:12px;
+    margin-right: 10px;
+}
+
+#line{
+    width: 30px;
+    opacity: 0.5;
+
+}
+#arrows{
+    width: 42px;
+    margin-left: -10px;
+    opacity: 0.7;
+    margin-top: 270px;
+}
+
+
+
+#left-pic{
+    width: 90px;
+    height: 70;
+    text-align: center;
+    border: 5px solid;
+    border-color: #bfbfbf;
+    float:left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+    opacity: 0.8;
+}
+#right-pic{
+     width: 90px;
+    height: 70px;
+    text-align: center;
+    border: 5px solid;
+    border-color: #bfbfbf;
+    float:left;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+#picsize{
+    margin-top: 20px;
+}
+
+.three{
+    position:absolute;
+    top:17.5%;
+
+}
+
+button[name=POSTS]{
+    background-color: #85e085;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    margin: 4px 2px;
+    cursor: pointer;
+	height:4%;
+}
+
+button[name=comments]{
+    background-color: #f2f2f2;
+    border: none;
+    color: black;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border:1px solid gray;
+	height:4%;
+}
+
+button[name=tags]{
+    background-color: #f2f2f2;
+    border: none;
+    color: black;
+    padding: 12px 13.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border:1px solid gray;
+	width:25%;
+	height:4%;
+
+}
+
+
